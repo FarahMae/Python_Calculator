@@ -3,7 +3,7 @@ import decimal
 print("Welcome to the Python calculator")
 
 def calculate(num1, num2, oper):
-    # Perform calculations
+    
     if oper == "+":
         print("Result = " + str(num1 + num2))
     elif oper == "-":
@@ -21,15 +21,15 @@ def calculate(num1, num2, oper):
 keepgoing = True
 while keepgoing:
     try:
-        # Input numbers and operator
+        
         num1 = decimal.Decimal(input("Please give the first number: "))
         num2 = decimal.Decimal(input("Please give the second number: "))
         op = input("Please give the operator (+, -, *, /): ")
 
-        # Perform calculation
+        
         calculate(num1, num2, op)
 
-        # Check if the user wants to continue
+        
         if input("Continue? (y/n): ").lower() != "y":
             keepgoing = False
     except decimal.InvalidOperation:
