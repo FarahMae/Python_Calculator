@@ -1,6 +1,6 @@
 markdown
 Copy code
-# Beginner Python Calculator
+# Python Calculator
 
 This is a beginner-friendly Python calculator project. It supports basic arithmetic operations: addition, subtraction, multiplication, and division.
 
@@ -14,8 +14,8 @@ This is a beginner-friendly Python calculator project. It supports basic arithme
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/Beginner_Python_Calculator.git
-   cd Beginner_Python_Calculator
+   git clone https://github.com/yourusername/Python_Calculator.git
+   cd Python_Calculator
 2.	Run the script:
 bash
 Copy code
