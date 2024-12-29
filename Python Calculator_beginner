@@ -1,4 +1,3 @@
-
 import decimal
 
 print("Welcome to the Python calculator")
